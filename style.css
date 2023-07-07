@@ -510,7 +510,7 @@ main {
 }
 
 .hero-content {
-  padding: 150px;
+  padding: 200px;
   max-width: 8000px;
 }
 
@@ -1043,6 +1043,7 @@ textarea.input-field {
 
   .about .btn {
     max-width: max-content;
+
   }
 
   .about .btn-secondary {
@@ -1258,6 +1259,8 @@ textarea.input-field {
     background: var(--color-secondary);
   }
 
+
+
   /**
      * STATS
      */
@@ -1389,6 +1392,6 @@ textarea.input-field {
      */
 
   .about-banner {
-    max-width: 450px;
+    max-width: 800px;
   }
 }
