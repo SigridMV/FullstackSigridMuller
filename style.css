@@ -18,7 +18,7 @@
      */
 
   /* Fuentes personalizadas */
-  --ff-saira-stencil-one: "Saira Stencil One", sans-serif;
+  --ff-saira-stencil-one: 'Libre Baskerville', serif;
   --ff-poppins: "Poppins", sans-serif;
   --ff-roboto: "Roboto", sans-serif;
 
@@ -510,7 +510,7 @@ main {
 }
 
 .hero-content {
-  padding: 200px;
+  padding: 300px;
   max-width: 8000px;
 }
 
@@ -1065,9 +1065,6 @@ textarea.input-field {
    */
 
 @media (min-width: 992px) {
-  /**
-     * CUSTOM PROPERTY
-     */
 
   :root {
     /**
@@ -1083,9 +1080,6 @@ textarea.input-field {
     --section-padding: 100px;
   }
 
-  /**
-     * REUSED STYLE
-     */
 
   .container {
     max-width: 980px;
@@ -1184,7 +1178,6 @@ textarea.input-field {
 
   .hero-content {
     --color-primary: var(--white);
-
     position: absolute;
     top: 50%;
     filter: drop-shadow(2px 4px 10px var(--black));
